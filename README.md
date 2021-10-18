@@ -8,7 +8,7 @@
 
 ## ⚡️ Events: Post Endpoint
 
-Needed Url: https://.herokuapp.com/events
+Needed Url: https://eventsapp101.herokuapp.com/
 
 # ⚡️ Must needs for a Post Request
 name and event_type are the required key/value pairs
@@ -47,7 +47,7 @@ That's all you need to know to start! 🎉
 
 ### Testing the Post Request
 ```
-curl -X POST --header 'Content-Type: application/json' --data '{"event" : {"name" : "subscribe_button", "event_type" : "subscribe","button_color" : "blue" }}' 'http://localhost:3333/events'
+curl -X POST --header 'Content-Type: application/json' --data '{"event" : {"name" : "subscribe_button", "event_type" : "subscribe","button_color" : "blue" }}' 'https://eventsapp101.herokuapp.com/'
 
 ```
 
@@ -77,5 +77,5 @@ for example
 
 ````
 
-This can be accessed here https://.herokuapp.com/todaystats
+This can be accessed here https://eventsapp101.herokuapp.com/todaystats
 
